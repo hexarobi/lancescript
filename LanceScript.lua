@@ -1276,7 +1276,7 @@ self_root:toggle_loop(translations.laser_eyes, {"lasereyes"}, translations.laser
             -- michael / story mode character
             case 225514697:
             -- imply they're using a story mode ped i guess. i dont know what else to do unless i have data on every single ped
-            pluto_default:
+            default:
                 left_eye_id = 5956
                 right_eye_id = 6468
         end
