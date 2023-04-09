@@ -5467,7 +5467,7 @@ local function set_up_player_actions(pid)
                 case 14: 
                     send_attacker("CLONE", pid, false, num_attackers)
                     break
-                pluto_default:
+                default:
                     send_attacker(attacker_hashes[index], pid, false, num_attackers, atkgun)
             end
     end)
